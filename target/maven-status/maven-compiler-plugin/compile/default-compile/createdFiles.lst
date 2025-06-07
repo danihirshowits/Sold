@@ -1,0 +1,12 @@
+com\mycompany\remoteserverapp\JakartaRestConfiguration.class
+com\mycompany\remoteserverapp\resources\JakartaEE10Resource.class
+com\mycompany\remoteserverapp\OrdersServlet.class
+com\mycompany\remoteserverapp\UsersServlet.class
+com\mycompany\remoteserverapp\DatabaseHelper.class
+com\mycompany\remoteserverapp\UserDAO.class
+com\mycompany\remoteserverapp\HelloServlet.class
+com\mycompany\remoteserverapp\User.class
+com\mycompany\remoteserverapp\AddUserServlet.class
+com\mycompany\remoteserverapp\ProductsServlet.class
+com\mycompany\remoteserverapp\LoginServlet.class
+com\mycompany\remoteserverapp\DatabaseSetup.class

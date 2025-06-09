@@ -13,7 +13,7 @@ import java.sql.SQLException;
  * @author Daniel
  */
 public class DatabaseHelper {
-    private static final String DB_URL = "jdbc:sqlite:C:/Users/yonat/db/mydb.db";
+    private static final String DB_URL = "jdbc:sqlite:./mydatabase.db"; // או השם שבחרת, לדוגמה SoldApp.db // או השם שבחרת לקובץ ה-DB, לדוגמה SoldApp.db
   //  private static final String DB_USER = "dani";
   //  private static final String DB_PASSWORD = "dani";
     

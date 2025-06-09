@@ -18,10 +18,11 @@ public class DatabaseSetup {
         UserDAO ud=new UserDAO();
         ud.authenticateUser("admin", "aaaaa");
         // מסלול מסד הנתונים - שנה לפי הצורך
-        String url = "jdbc:sqlite:C:/Users/yonat/db/mydb.db";
+        String url = "jdbc:sqlite:./src/main/resources/data/mydatabase.db"; // או השם שבחרת לקובץ ה-DB, לדוגמה SoldApp.db
+
         try (Connection conn = DriverManager.getConnection(url)) {
             if (conn != null) {
-                System.out.println("Connected to the database.");
+                System.out.println("Connected to the SQLite database successfully at: " + url);
 
                 // יצירת אובייקט Statement
                 Statement stmt = conn.createStatement();

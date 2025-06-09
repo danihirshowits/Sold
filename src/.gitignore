@@ -1,0 +1,2 @@
+# Ignore SQLite database files
+src/main/resources/data/*.db

@@ -18,7 +18,7 @@ public class DatabaseSetup {
         UserDAO ud=new UserDAO();
         ud.authenticateUser("admin", "aaaaa");
         // מסלול מסד הנתונים - שנה לפי הצורך
-        String url = "jdbc:sqlite:./mydatabase.db"; // או השם שבחרת, לדוגמה SoldApp.db // או השם שבחרת לקובץ ה-DB, לדוגמה SoldApp.db
+        String url = "jdbc:sqlite:C:/Users/bagrut/Documents/NetBeansProjects/Sold/mydatabase.db"; // או השם שבחרת, לדוגמה SoldApp.db // או השם שבחרת לקובץ ה-DB, לדוגמה SoldApp.db
 
         try (Connection conn = DriverManager.getConnection(url)) {
             if (conn != null) {
